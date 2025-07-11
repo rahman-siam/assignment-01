@@ -207,3 +207,18 @@ button:hover {
   text-decoration: none;
   color: black;
 }
+
+
+/* icon section  */
+.girl{
+  display: flex;
+  gap: 30px;
+}
+
+.three-items{
+  display: flex;
+  justify-content: center;
+}
+.users-say-section{
+  text-align: center;
+}
