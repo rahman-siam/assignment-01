@@ -2,9 +2,12 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bolder;
+  font-weight: normal;
   font-style: normal;
   font-size: 30px;
+}
+.font{
+  font-weight: bolder;
 }
 .raleway-font {
   font-family: "Raleway", sans-serif;
@@ -40,7 +43,7 @@ nav li a {
     font-size: 25px;
     color: white;
     border: none;
-    padding: 30px 35px;
+    padding: 25px 25px;
     border-radius: 10px;
 }
 
@@ -75,6 +78,63 @@ nav li a {
     padding: 10px 20px;
     border-radius: 10px;
   }
+
+  /* action stylels */
+  .action-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 116px 350px;
+  }
+
+.action-text{
+   border-radius: 10px;
+  align-items: center;
+}
+
+  
+.action{
+  padding: 50px 150px;
+}
+.btn-preview{
+  background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.action-image {
+
+  width: 300px;
+  border-radius: 20px; 
+}
+/*  Productive Users Section */
+.p-users-num div h1{ 
+  color: #4E47FF;
+
+}
+.Productive-Users-Section h3{
+  font-size: 38px;
+}
+
+.p-users-num {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  }
+
+
+
+.Productive-Users-Section{
+  align-items: center;
+  text-align: center;
+  background-color: rgba(78, 71, 255, 0.1) ;
+  padding: 20px 0px;
+  border-radius: 20px;
+  margin-top: 111px;
+  
+}
 
 
  
